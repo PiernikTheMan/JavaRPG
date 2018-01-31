@@ -43,4 +43,16 @@ class World{
             System.out.println("You shuld not be able to see this. Contact the gamme developer."); 
     }
     }
+    
+    private static void pushThePlot(int Stage){
+        try(BufferedReader story = new BufferedReader(new FileReader("./hidden/Story.dat")); BufferedReader player = new BufferedReader(new FileReader("Player.java"))){
+            ArrayList lines =new ArrayList();
+        }
+        catch(FileNotFoundException e){
+            System.out.println("You shuld not be able to see this. Contact the gamme developer. error code filenotFoundException");
+        }
+        catch(IOException e){
+            System.out.println("You shuld not be able to see this. Contact the gamme developer. error code IOException");
+        }
+    }
 }
