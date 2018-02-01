@@ -4,5 +4,6 @@ class Player extends Human{
         //Story:But isn't The God just a creation of a man? Does it makes the world a creation of a man?
         //Story:Did the "Player" "created" the "World"??
         World mine=new World();
+        System.out.println(see());
     }
 }
