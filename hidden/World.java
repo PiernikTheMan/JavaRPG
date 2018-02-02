@@ -19,6 +19,10 @@ class World{
                 pushThePlot(2);
             }
         }
+        if(key.equals("reset")){
+            changeStageTo(0);
+            pushThePlot(0);
+        }
     }
     private static void pushThePlot(int Stage){
         ArrayList<String> lines=null;

@@ -1,0 +1,20 @@
+Stage 0
+Your job is to create a World.
+It does not matter how you name it.
+The World class has a parameterless constructor.
+Warning-Next line contains an answer:
+World nameOfMyWorld = new World();
+Stage 1
+Note that you (Player.java) extend Human class.
+You don't need to have a see() method to use it, if it is contained in class you extend.
+see() method returns value of string.
+Warning-Next line contains an answer to the first part:
+System.out.println(see());
+Read the string. Note that your job is to get the world to "calm down".
+World class has anther constructor which is World(String key)
+Warning-Next line contains an answer:
+World nameOfMyWorld =new World("calm down");
+Stage 2
+you did it it's all 
+Stage 3
+not in the demo
