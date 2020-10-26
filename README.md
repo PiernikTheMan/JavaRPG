@@ -1,5 +1,8 @@
 # JavaRPG
-How to play:
+
+*This is a development branch switch to JavaRPG-shipment-demo branch*
+
+## How to play:
 
 You have to have a javac, then you just mess with the Player.java file in your favorite text editor.
 
